@@ -10,7 +10,7 @@ import TestimonialCardFour from '@/components/sections/testimonial/TestimonialCa
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import ContactCenterForm from '@/components/sections/contact/ContactCenterForm';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Facebook, Home, Instagram, Linkedin, Sparkles, Star, Twitter } from "lucide-react";
+import { Facebook, Home, Instagram, Linkedin, Map, Sparkles, Star, Twitter } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -35,6 +35,7 @@ export default function LandingPage() {
             { name: "Rooms", id: "rooms" },
             { name: "Amenities", id: "amenities" },
             { name: "About", id: "about" },
+            { name: "Interactive Map", id: "interactive-map" },
             { name: "Contact", id: "contact" }
           ]}
         />
@@ -129,6 +130,32 @@ export default function LandingPage() {
               description: "State-of-the-art gym equipment and personal training services available",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/uploaded-1763891023326-tuiyskux.jpg",
               imageAlt: "Modern fitness center equipment"
+            }
+          ]}
+        />
+      </div>
+
+      <div id="interactive-map" data-section="interactive-map">
+        <FeatureCardOne
+          title="Explore Our Location"
+          description="Discover nearby attractions, dining options, and points of interest around Luxe Haven Hotel"
+          tag="Interactive Map"
+          tagIcon={Map}
+          textboxLayout="default"
+          gridVariant="two-columns-alternating-heights"
+          animationType="slide-up"
+          features={[
+            {
+              title: "Nearby Attractions",
+              description: "Historic downtown district with museums, galleries, and cultural landmarks within walking distance",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/uploaded-1763891021858-3h6ytooa.jpg",
+              imageAlt: "Historic downtown attractions"
+            },
+            {
+              title: "Transportation Hub",
+              description: "Easy access to airport, train station, and major highways with complimentary shuttle service",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/uploaded-1763891019008-hllabvtb.jpg",
+              imageAlt: "Transportation connections"
             }
           ]}
         />
