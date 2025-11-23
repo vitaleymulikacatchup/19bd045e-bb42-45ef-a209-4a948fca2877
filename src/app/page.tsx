@@ -188,6 +188,9 @@ export default function LandingPage() {
           sideDescription="Find answers to common questions about your stay at Luxe Haven"
           textPosition="left"
           animationType="smooth"
+          buttons={[
+            { text: "Still have questions? Contact us", href: "contact" }
+          ]}
           faqs={[
             {
               id: "1",
