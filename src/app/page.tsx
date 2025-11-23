@@ -194,28 +194,28 @@ export default function LandingPage() {
           faqs={[
             {
               id: "1",
+              title: "Can I cancel or modify my reservation?",
+              content: "Cancellations made 7 days before arrival receive a full refund. Modifications can be made anytime at no additional cost subject to availability."
+            },
+            {
+              id: "2",
               title: "What are your check-in and check-out times?",
               content: "Standard check-in is at 3:00 PM and check-out is at 11:00 AM. Early check-in and late check-out may be available upon request subject to availability."
             },
             {
-              id: "2",
+              id: "3",
               title: "Do you offer airport transportation?",
               content: "Yes, we provide complimentary airport transportation for all guests. Please contact us 24 hours in advance to arrange your pickup."
             },
             {
-              id: "3",
+              id: "4",
               title: "Is there free WiFi throughout the hotel?",
               content: "Complimentary high-speed WiFi is available in all guest rooms, common areas, and public spaces throughout the hotel."
             },
             {
-              id: "4",
+              id: "5",
               title: "What payment methods do you accept?",
               content: "We accept all major credit cards, debit cards, and wire transfers. We also offer flexible payment plans for extended stays."
-            },
-            {
-              id: "5",
-              title: "Can I cancel or modify my reservation?",
-              content: "Cancellations made 7 days before arrival receive a full refund. Modifications can be made anytime at no additional cost subject to availability."
             },
             {
               id: "6",
